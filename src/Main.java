@@ -83,8 +83,10 @@ public class Main {
         System.out.println(slowSlimTime);
         float fastSlimTime = 7000f/500;
         System.out.println(fastSlimTime);
-        /*float averageValueTime_1 =((fastSlimTime+slowSlimTime)/2);
-        System.out.println(averageValueTime_1);*/
+        /*
+        float averageValueTime_1 =((fastSlimTime+slowSlimTime)/2);
+        System.out.println(averageValueTime_1);
+        */
         int averageValueTime = (int)((fastSlimTime+slowSlimTime)/2);
         System.out.println(averageValueTime);
     }
